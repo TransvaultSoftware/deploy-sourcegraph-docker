@@ -1,0 +1,52 @@
+version: '2.4'
+services:
+  migrator:
+    cpus: 0
+  caddy:
+    cpus: 0
+  sourcegraph-frontend-0:
+    cpus: 0
+  sourcegraph-frontend-internal:
+    cpus: 0
+  gitserver-0:
+    cpus: 0
+  zoekt-webserver-0:
+    cpus: 0
+  searcher-0:
+    cpus: 0
+  precise-code-intel-worker:
+    cpus: 0
+  worker:
+    cpus: 0
+  syntactic-code-intel-worker:
+    cpus: 0
+  syntect-server:
+    cpus: 0
+  prometheus:
+    cpus: 0
+  grafana:
+    cpus: 0
+  cadvisor:
+    cpus: 0
+  node-exporter:
+    cpus: 0
+  pgsql:
+    cpus: 0
+  pgsql-exporter:
+    cpus: 0
+  codeintel-db:
+    cpus: 0
+  codeintel-db-exporter:
+    cpus: 0
+  codeinsights-db:
+    cpus: 0
+  codeinsights-db-exporter:
+    cpus: 0
+  blobstore:
+    cpus: 0
+  redis-cache:
+    cpus: 0
+  redis-store:
+    cpus: 0
+  otel-collector:
+    cpus: 0
